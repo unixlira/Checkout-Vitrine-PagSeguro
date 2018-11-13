@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="shortcut icon" href="{{asset('assets/img/logo1.ico')}}"/>
     <!--Global styles -->
-    <link type="text/css" rel="stylesheet" href="assets/css/components.css" />
-    <link type="text/css" rel="stylesheet" href="asset('assets/css/custom.css" />
+    <link type="text/css" rel="stylesheet" href="public/assets/css/components.css" />
+    <link type="text/css" rel="stylesheet" href="asset('public/assets/css/custom.css" />
     <!--End of Global styles -->
     <!--Plugin styles-->
-    <link type="text/css" rel="stylesheet" href="asset('assets/vendors/bootstrapvalidator/css/bootstrapValidator.min.css"/>
+    <link type="text/css" rel="stylesheet" href="asset('public/assets/vendors/bootstrapvalidator/css/bootstrapValidator.min.css"/>
     <!--End of Plugin styles-->
-    <link type="text/css" rel="stylesheet" href="asset('assets/css/pages/login1.css')"/>
+    <link type="text/css" rel="stylesheet" href="asset('public/assets/css/pages/login1.css')"/>
 </head>
 <body>
 <div class="container">
@@ -29,7 +29,7 @@
                 <div class="col-lg-5  col-md-8  col-sm-12 mx-auto card">
                     <div class="login_logo login_border_radius1">
                         <h3 class="text-center">
-                            <img src="{{asset('assets/img/logo_vitrine.png')}}" alt="josh logo" class="admire_logo  m-t-15">
+                            <img src="{{asset('public/assets/img/logo_vitrine.png')}}" alt="josh logo" class="admire_logo  m-t-15">
                         </h3>
                     </div>
                     <div class="bg-white login_content login_border_radius">
@@ -92,14 +92,14 @@
 </footer>
 <!-- global js -->
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<script type="text/javascript" src="{{asset('assets/js/jquery.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('assets/js/popper.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('public/assets/js/jquery.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('public/assets/js/popper.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
 <!-- end of global js-->
 <!--Plugin js-->
-<script type="text/javascript" src="{{asset('assets/vendors/bootstrapvalidator/js/bootstrapValidator.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('public/assets/vendors/bootstrapvalidator/js/bootstrapValidator.min.js')}}"></script>
 <!--End of plugin js-->
-<script type="text/javascript" src="{{asset('assets/js/pages/login1.js')}}"></script>
+<script type="text/javascript" src="{{asset('public/assets/js/pages/login1.js')}}"></script>
 <script type="text/javascript">
     function autoRefreshPage()
     {
