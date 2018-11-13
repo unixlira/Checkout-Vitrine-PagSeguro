@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="shortcut icon" href="{{asset('assets/img/logo1.ico')}}"/>
     <!--Global styles -->
-    <link type="text/css" rel="stylesheet" href="{{asset('assets/css/components.css')}}" />
-    <link type="text/css" rel="stylesheet" href="{{asset('assets/css/custom.css')}}" />
+    <link type="text/css" rel="stylesheet" href="assets/css/components.css" />
+    <link type="text/css" rel="stylesheet" href="asset('assets/css/custom.css" />
     <!--End of Global styles -->
     <!--Plugin styles-->
-    <link type="text/css" rel="stylesheet" href="{{asset('assets/vendors/bootstrapvalidator/css/bootstrapValidator.min.css')}}"/>
+    <link type="text/css" rel="stylesheet" href="asset('assets/vendors/bootstrapvalidator/css/bootstrapValidator.min.css"/>
     <!--End of Plugin styles-->
-    <link type="text/css" rel="stylesheet" href="{{asset('assets/css/pages/login1.css')}}"/>
+    <link type="text/css" rel="stylesheet" href="asset('assets/css/pages/login1.css')"/>
 </head>
 <body>
 <div class="container">
